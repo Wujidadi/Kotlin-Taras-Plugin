@@ -145,7 +145,7 @@ fun coloredMessage(message: String, color: String = "bright green"): String {
         "bright pink",
         "light pink",
         "lighter pink" -> {
-            "\u001B[38;5;207m"
+            "\u001B[38;5;219m"
         }
         /* 金色 */
         "gold" -> {
