@@ -141,6 +141,12 @@ fun coloredMessage(message: String, color: String = "bright green"): String {
         "teal" -> {
             "\u001B[38;5;30m"
         }
+        /* 粉紅色 */
+        "bright pink",
+        "light pink",
+        "lighter pink" -> {
+            "\u001B[38;5;219m"
+        }
         /* 金色 */
         "gold" -> {
             "\u001B[38;5;220m"
